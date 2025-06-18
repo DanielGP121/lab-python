@@ -1,0 +1,20 @@
+Cargando módulo anaconda/2023.03...
+Módulo cargado.
+--- Iniciando ejecución del notebook para 100000000 elementos ---
+Wed Jun 18 11:36:41 CEST 2025
+Usando value = 100000000
+Time taken by reduction operation: 5.061078310012817 seconds
+5.05 s ± 162 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+ 	 Computing the sum of numbers in the range [0, value): 4999999950000000
+
+Bucle for:   total=499999500000, tiempo=0.0994 s
+sum(lst):    total=499999500000, tiempo=0.0080 s
+Bucle for NumPy:   total=499999500000, tiempo=0.1613 s
+np.sum(arr):       total=499999500000, tiempo=0.0005 s
+Pure Python loop:   time=0.0878 s, result=499999500000
+Numpy sum:          time=0.0005 s, result=499999500000
+Numba Python loop:  time=0.0004 s, result=499999500000
+Numba Numpy sum:    time=0.0003 s, result=499999500000
+--- Trabajo finalizado ---
+Wed Jun 18 11:37:39 CEST 2025
