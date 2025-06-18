@@ -1,0 +1,26 @@
+--- Iniciando ejecución del notebook de PI optimizado ---
+Wed Jun 18 12:06:22 CEST 2025
+Cargando módulo anaconda/2023.03...
+Módulo cargado.
+
+ 	 Computing pi in serial: 
+
+	 For 10000000 trials, pi = 3.142477
+
+6.88 s ± 8.33 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Calculando pi con NumPy (vectorizado): 
+
+	 Para 10000000 intentos, pi = 3.141894
+
+Tiempo de ejecución de calc_pi_numpy (usando %timeit):
+305 ms ± 1.15 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Calculando pi con Numba (bucle optimizado con NumPy arrays): 
+
+	 Para 10000000 intentos, pi = 3.141781
+
+Tiempo de ejecución de calc_pi_numba_serial (usando %timeit):
+165 ms ± 72 µs per loop (mean ± std. dev. of 3 runs, 10 loops each)
+--- Trabajo finalizado ---
+Wed Jun 18 12:07:43 CEST 2025
